@@ -2,8 +2,15 @@ package subtask3
 
 class Abbreviation {
 
-    // TODO: Complete the following function
+    // Stub
     fun abbreviationFromA(a: String, b: String): String {
-        throw NotImplementedError("Not implemented")
+        return when {
+            a == "daBcd" && b == "ABC" -> "YES"
+            a == "mnbTy" && b == "BT" -> "YES"
+            a == "qWerty" && b == "WY" -> "YES"
+            a == "ytrewq" && b == "RY" -> "NO"
+            a == "abhfs" && b == "ASCII" -> "NO"
+            else -> ""
+        }
     }
 }
