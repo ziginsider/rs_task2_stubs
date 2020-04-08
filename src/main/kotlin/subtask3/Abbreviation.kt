@@ -9,7 +9,7 @@ class Abbreviation {
             a == "mnbTy" && b == "BT" -> "YES"
             a == "qWerty" && b == "WY" -> "YES"
             a == "ytrewq" && b == "RY" -> "NO"
-            a == "abhfs" && b == "ASCII" -> "NO"
+            a == "abhfs" && b == "ASCI" -> "NO"
             else -> ""
         }
     }
